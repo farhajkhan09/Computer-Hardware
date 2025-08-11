@@ -1,0 +1,248 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+  <title>CPU</title>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+  <style>  
+   
+  div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 4px solid black;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 5px;
+  float: left;
+  width: 20%;
+}
+
+@media only screen and (max-width: 100px) {
+  .responsive {
+    width: 20%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 100px) {
+  .responsive {
+    width: 50%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 40%;
+  height: 40%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 40.5%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: honeydew;
+}
+
+.container:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: darkcyan;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+img {
+       border-radius: 4px;
+       margin-left: auto;
+       margin-right: auto;
+       width:  300px;
+       height: 200px;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       padding-left: auto;
+       margin: 6px 0;
+}
+
+  body {  
+      position: relative;   
+      color: honeydew;
+      font-family: cursive, serif;
+      background-color: teal;
+      font-size:large;}
+.footer {
+position: fixed;
+left: 10px;
+bottom: 5px;
+right: 10px; 
+width: 95%;
+background-color: teal;
+color: whitesmoke;
+text-align: center;
+}
+   
+  #section1 {padding-top:50px; }  
+  #section2 {padding-top:50px;}  
+  #section3 {padding-top:50px; }  
+  #section41 {padding-top:50px; }  
+  #section42 {padding-top:50px;}  
+
+  </style>  
+</head>  
+<body data-spy="scroll" data-target=".navbar" data-offset="50">  
+  
+<nav class="navbar navbar-inverse navbar-fixed-top">  
+  <div class="container-fluid">  
+    <div class="navbar-header">  
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">  
+          <span class="icon-bar"></span>  
+          <span class="icon-bar"></span>  
+          <span class="icon-bar"></span>                          
+      </button>  
+      <a class="navbar-brand" href="../index.html">Computer Hardware</a>  
+    </div>  
+    <div>  
+      <div class="collapse navbar-collapse" id="myNavbar">  
+        <ul class="nav navbar-nav">  
+          <li><a href="#section1">CPU</a></li>  
+          <li><a href="#section2">Types</a></li>
+        </ul>  
+      </div>  
+    </div>  
+  </div>  
+</nav>      
+  
+<div id="section1" class="container-fluid">  
+<h2> Introduction </h2>
+<p>The CPU is a vital element that manages all the calculations and commands which are transferred to other components of the computer and its peripherals. The major types of CPU are classified as single-core, dual-core, Quad-core, Hexa core, Octa-core, and Deca core processor which is explained below.
+    <img  src="https://www.trustedreviews.com/wp-content/uploads/sites/54/2021/03/Intel-Rocker-Lake-2-e1615908186584.jpg" style="  display: block;margin-left: auto;margin-right: auto;width: 40%; height: 40%;"><br>
+</p>
+
+</div>
+
+<hr>
+
+
+
+<div id="section2" class="container-fluid"> 
+<h2> CPU Types with examples</h2> <br>
+<ol> 
+  <li> <b>Single-core CPU</b>  
+<ul>
+  <li>It is the oldest type of CPU which is available and employed in most of the personal and official computers. The single-core CPU can execute only one command at a time and its not efficient in multi-tasking.
+<li>Ex: <b>Celeron 266</b>- Manufacturer: Intel, Processor Base Frequency: 266 MHz, Used in: 32-bit Desktop,  Cost: $155<br></li><br>
+
+
+</ul>
+
+ 
+  <li> <b>Dual-core CPU</b>  
+<ul>
+  <li>It is a single CPU that comprises of two strong cores and functions like dual CPU acting like one. Unlike the CPU with a single core, the processor must switch back and forth within a variable array of data streams and if or more thread is executed, the dual-core CPU manages the multitasking effectively. 
+
+<li>Ex: <b>AMD Athlon x2 </b>- Manufacturer: AMD, Processor Base Frequency: 3400 MHz, Used in: 64 bit Desktop,  Cost: $213.58<br></li><br>
+
+
+</ul>
+
+ 
+  <li> <b>Quad-core CPU</b>  
+<ul>
+  <li>The quad-core CPU is a refined model of multiple core CPU features and design with four cores on a single CPU. Similar to dual-core CPU, which divides the workload in between the cores, quad-core enables effective multitasking. It doesn’t signify any single operation which is four times faster rapid than others
+
+<li>Ex: <b>AMD Phenom x4</b>- Manufacturer: AMD, Processor Base Frequency: 3.4 GHz, Used in: 64-bit Desktop,  Cost: $245<br></li><br>
+
+</ul>
+
+
+  <li> <b>Hexa-core processors
+</b>  
+<ul> 
+
+  <li>It is another multiple-core processor which is available with six cores and can execute the task which works rapidly than the quad-core and dual-core processors. For users of the personal computer, the processors of Hexacore is simple and now the Intel is launched with Inter core i7 in 2010 with Hexa-core processor
+
+<li>Ex: <b>Intel i7</b>- Manufacturer: Intel, Processor Base Frequency: 3.6 GHz, Used in: 64-bit Desktop,  Cost: $514.064<br></li><br>
+
+</ul>
+
+ 
+  <li> <b>Octa-core processors
+</b>  
+<ul>
+  <li>The octa processors are developed with eight independent cores to execute an effective task that is efficient and even acts rapidly than quad-core processors. Trending octa-core processors comprise a dual set of quad-core processors that divides different activities between the various types. </li>
+
+
+<li>Ex: <b>PRO 1700X </b>- Manufacturer: AMD, Processor Base Frequency: 3.4 GHz, Used in: 64 bit Desktop,  Cost: $676.4<br>
+</li><br>
+
+</ul>
+
+
+ 
+  <li> <b>Deca core processors
+
+</b>  
+<ul>
+  <li>Deca-core is available with ten independent systems that are deployed to execute and manage the task that is successful than other processors that are developed until now. Owning a PC, or any device made with a deca-core processor is the best option. It is faster than other processors and very successful in multi-tasking. Deca-core processors are trending with its advanced features. </li>
+
+
+<li>Ex: <b>Xeon W 2150B  </b>-Manufacturer: Intel, Processor Base Frequency: 3 GHz, Used in: Workstation,  Cost: $879.32<br></li><br>
+</ul>
+
+</ol>
+
+
+</div>
+
+ 
+<ul class="pager" >  
+    <li><a href="../index.html" style="color: teal;">Previous</a></li>  
+    <li><a href="memory.html" style="color: teal;">Next</a></li> <br><br><br>
+  </ul>  
+  <div class="footer">
+     created by Chandana Udupa
+  </div>
+
+</body>  
+</html>  

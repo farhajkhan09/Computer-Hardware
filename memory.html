@@ -1,0 +1,320 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+  <title>Memory</title>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+  <style>  
+   
+  div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 4px solid black;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 5px;
+  float: left;
+  width: 20%;
+}
+
+@media only screen and (max-width: 100px) {
+  .responsive {
+    width: 20%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 100px) {
+  .responsive {
+    width: 50%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 40%;
+  height: 40%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 40.5%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: honeydew;
+}
+
+.container:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: darkcyan;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+img {
+       border-radius: 4px;
+       margin-left: auto;
+       margin-right: auto;
+       width:  300px;
+       height: 200px;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       padding-left: auto;
+       margin: 6px 0;
+}
+
+  body {  
+      position: relative;   
+      color: honeydew;
+      font-family: cursive, serif;
+      background-color: teal;
+      font-size:large;}
+.footer {
+position: fixed;
+left: 10px;
+bottom: 5px;
+right: 10px; 
+width: 95%;
+background-color: teal;
+color: whitesmoke;
+text-align: center;
+}
+   
+  #section1 {padding-top:50px; }  
+  #section2 {padding-top:50px;}  
+  #section3 {padding-top:50px; }  
+  #section41 {padding-top:50px; }  
+  #section42 {padding-top:50px;}  
+
+  </style>  
+</head>  
+<body data-spy="scroll" data-target=".navbar" data-offset="50">  
+  
+<nav class="navbar navbar-inverse navbar-fixed-top">  
+  <div class="container-fluid">  
+    <div class="navbar-header">  
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">  
+          <span class="icon-bar"></span>  
+          <span class="icon-bar"></span>  
+          <span class="icon-bar"></span>                          
+      </button>  
+      <a class="navbar-brand" href="../index.html">Computer Hardware</a>  
+    </div>  
+    <div>  
+      <div class="collapse navbar-collapse" id="myNavbar">  
+        <ul class="nav navbar-nav">  
+          <li><a href="#section1">Memory</a></li>  
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">RAM <span class="caret"></span></a> 
+            <ul class="dropdown-menu">  
+              <li><a href="#section21">Introduction</a></li>  
+              <li><a href="#section22">Types of RAM</a></li></ul> 
+
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ROM <span class="caret"></span></a>  
+            <ul class="dropdown-menu">  
+              <li><a href="#section31">Intoduction</a></li>  
+              <li><a href="#section32">Types of ROM</a></li>  
+               
+            </ul>  
+          </li>
+          <li><a href="#section33">Cache</a></li>
+        </ul>  
+      </div>  
+    </div>  
+  </div>  
+</nav>      
+  
+<div id="section1" class="container-fluid">  
+  <h1>Memory</h1>  
+    <p>The computer memory holds the data and instructions needed to process raw data and produce output. The computer memory is divided into large number of small parts known as cells. Each cell has a unique address which varies from 0 to memory size minus one.n computing, memory is a device or system that is used to store information for immediate use in a computer or related computer hardware and digital electronic devices. The term memory is often synonymous with the term primary storage or main memory. An archaic synonym for memory is store.
+
+Computer memory operates at a high speed compared to storage that is slower but less expensive and higher in capacity. Besides storing opened programs, computer memory serves as disk cache and write buffer to improve both reading and writing performance. Operating systems borrow RAM capacity for caching so long as not needed by running software.If needed, contents of the computer memory can be transferred to storage; a common way of doing this is through a memory management technique called virtual memory.<br><br>
+      <img  src="https://pixfeeds.com/images/technology/storage/1280-811988320-installing-computer-ram-memory-chip.jpg" style="display: block;margin-left: auto; margin-right: auto; width: 500px; height: 300px;">  
+
+      <br><br>
+ Modern memory is implemented as semiconductor memory, where data is stored within memory cells built from MOS transistors and other components on an integrated circuit. There are two main kinds of semiconductor memory, volatile and non-volatile. Examples of non-volatile memory are flash memory and ROM, PROM, EPROM and EEPROM memory. Examples of volatile memory are dynamic random-access memory (DRAM) used for primary storage, and static random-access memory (SRAM) used for CPU cache.Most semiconductor memory is organized into memory cells each storing one bit (0 or 1). Flash memory organization includes both one bit per memory cell and multi-level cell capable of storing multiple bits per cell. The memory cells are grouped into words of fixed word length, for example, 1, 2, 4, 8, 16, 32, 64 or 128 bits. Each word can be accessed by a binary address of N bits, making it possible to store 2N words in the memory.
+  <br>
+  In general, memory is of three types:
+    <ol>
+      <li> <b>Primary memory:  </b> It is also known as the main memory of the computer system.</li>
+      <li> <b>Secondary memory:  </b>It is also known as auxiliary memory and backup memory.</li>
+      <li> <b>Cache memory:  </b>It is a type of high-speed semiconductor memory that can help the CPU run faster. </li> 
+    </ol>
+
+    <br> <br>
+    <b> The classification of memory and its types are as shown</b><br><br>
+    <img  src="https://media.geeksforgeeks.org/wp-content/uploads/memory.png" style="display: block;margin-left: auto; margin-right: auto; width: 700px; height: 300px;">  
+
+  </p>
+</div>
+
+<hr>
+
+
+
+<div id="section21" class="container-fluid">  
+
+  <br>
+  <h1>Random Access Memory (RAM)</h1>    
+  <h2> Introduction</h2>
+  <p> Memory is the most essential element of a computing system because without it computer can’t perform simple tasks. Computer memory is of two basic types – Primary memory(RAM and ROM) and Secondary memory (hard drive, CD, etc). Random Access Memory (RAM) is primary-volatile memory and Read-Only Memory (ROM) is primary-non-volatile memory. <br>
+
+RAM (Random Access Memory) is the hardware in a computing device where the operating system (OS), application programs and data in current use are kept so they can be quickly reached by the device's processor. RAM is the main memory in a computer. It is much faster to read from and write to than other kinds of storage, such as a hard disk drive (HDD), solid-state drive (SSD) or optical drive.
+
+Random Access Memory is volatile. That means data is retained in RAM as long as the computer is on, but it is lost when the computer is turned off. When the computer is rebooted, the OS and other files are reloaded into RAM, usually from an HDD or SSD.</p><br>
+  <img  src="https://www.webopedia.com/wp-content/uploads/1996/09/AdobeStock_176206056-scaled.jpeg" style="  display: block;margin-left: auto;margin-right: auto;width: 40%; height: 40%;"><br>
+  <p>Because of its volatility, RAM can't store permanent data. RAM can be compared to a person's short-term memory, and a hard disk drive to a person's long-term memory. Short-term memory is focused on immediate work, but it can only keep a limited number of facts in view at any one time. When a person's short-term memory fills up, it can be refreshed with facts stored in the brain's long-term memory.
+<br>
+A computer also works this way. If RAM fills up, the computer's processor must repeatedly go to the hard disk to overlay the old data in RAM with new data. This process slows the computer's operation.</p>
+</div> 
+
+
+<div id="section22" class="container-fluid">  
+
+  <br><br>
+  <h2>Types of RAM</h2>    
+
+  <p>
+    <ul>
+    <li><b>DRAM: </b>Dynamic RAM or DRAM needs to periodically refresh in a few milliseconds to retain data. DRAM is made up of capacitors and transistors and electric charge leaks from capacitors and DRAM needs to be charged periodically. DRAM is widely used in home PCs and servers as it is cheaper than SRAM.
+      <div class="container">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Pair32mbEDO-DRAMdimms.jpg/220px-Pair32mbEDO-DRAMdimms.jpg" alt="DRAM" class="image">
+  <div class="overlay">
+    <div class="text">DRAM ​</div>
+  </div></div>
+
+</li><br>
+    <li><b>SRAM: <b> Static RAM or SRAM keeps the data as long as power is supplied to the system. SRAM uses Sequential circuits like a flip-flop to store a bit and hence need not be periodically refreshed. SRAM is expensive and hence only used where speed is the utmost priority.
+
+      <div class="container">
+  <img src="https://www.guru99.com/images/2/022220_0619_SRAMvsDRAMK2.jpg" alt="DRAM" class="image" >
+  <div class="overlay">
+    <div class="text">SRAM ​</div>
+  </div>
+</div> 
+</li><br>
+    <li><b>SDRAM: </b>Synchronous DRAM, or SDRAM, improves performance through its pins, which sync up with data connection between the main memory and the microprocessor.
+    <div class="container">
+  <img src="https://m.media-amazon.com/images/I/51mzKfXPxxL._SY355_.jpg" alt="SDRAM" class="image" >
+  <div class="overlay">
+    <div class="text">SDRAM ​</div> </div></div></li>
+    
+ 
+    <li><b>DDRSDRAM: </b>DDR SDRAM has the features of SDRAM, but with twice the data transmission frequency. That’s why it’s called “double data rate SDRAM.”
+      <div class="container">
+  <img src="https://img.directindustry.com/images_di/photo-g/119125-5625251.jpg" alt="DDRSDRAM" class="image" >
+  <div class="overlay">
+    <div class="text">DDRSDRAM ​</div> </div></div></li>
+</li><br>
+    <li><b>ECC DRAM: </b>This type of DRAM can find corrupted data and sometimes even fix it, thanks to its error-correcting code (ECC).
+    <div class="container">
+  <img src="https://www.deskdecode.com/wp-content/uploads/2017/12/ECC-RAM.jpg" alt="EECDRAM" class="image" >
+  <div class="overlay">
+    <div class="text">EECDRAM ​</div> </div></div></li><br>
+    <li><b>DDR2, DDR3, and DDR4: </b>Many HP computers use the DDR series of DRAM chips. The technology improves from one generation to the next, which is indicated by the number series. DDR4, for example, is faster and more efficient than DDR2 or DDR3.
+If you purchase a new RAM stick to upgrade your computer today, it’s likely that it’ll be a DDR4 chip product. It’s also very easy to install DDR4 RAM in a standard desktop computer, making it popular among hobbyists and pros alike.
+<div class="container">
+  <img src="https://media.istockphoto.com/photos/memory-module-picture-id680722158" alt="DDRRAM" class="image" >
+  <div class="overlay">
+    <div class="text">DDR ​</div> </div></div>
+</li>
+    
+  </ul>
+</p>
+</div>
+
+
+<hr>
+<div id="section31" class="container-fluid">  
+  <br><br>
+  <h1>Read Only Memory(ROM) </h1> 
+  <h2>Introduction</h2> 
+  <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/PokemonSilverBoard.jpg/330px-PokemonSilverBoard.jpg" style="display: block;margin-left: auto; margin-right: auto; width: 30%; height: 30%;"><br>
+  <p> Read-only memory (ROM) is a type of non-volatile memory used in computers and other electronic devices. Data stored in ROM cannot be electronically modified after the manufacture of the memory device. Read-only memory is useful for storing software that is rarely changed during the life of the system, also known as firmware. Software applications (like video games) for programmable devices can be distributed as plug-in cartridges containing ROM.
+
+Read-only memory strictly refers to memory that is hard-wired, such as diode matrix or a mask ROM integrated circuit (IC), which cannot be electronically[a] changed after manufacture. Although discrete circuits can be altered in principle, through the addition of bodge wires and/or the removal or replacement of components, ICs cannot. Correction of errors, or updates to the software, require new devices to be manufactured and to replace the installed device.</p><br>
+<p>The term "ROM" is sometimes used to mean a ROM device containing specific software, or a file with software to be stored in EEPROM or Flash Memory. For example, users modifying or replacing the Android operating system describe files containing a modified or replacement operating system as "custom ROMs" after the type of storage the file used to be written to.</p>
+
+  
+</div>  
+<div id="section32" class="container-fluid">  
+  <br><br>
+  <h2>Types of ROM</h2>  
+  <ul>
+    <li><b>MROM: </b>Masked ROM are hardwired and pre-programmed ROM. Any content that is once written cannot be altered anyhow.
+</li>
+    <li><b>PROM: </b>Programmable ROM can be modified once by the user. The user buys a blank PROM and writes the desired content but once written content cannot be altered.
+</li>
+    
+    <li><b>EPROM: </b>Erasable and Programmable ROM Content can be changed by erasing the initial content which can be done by exposing EPROM to UV radiation. This exposure to ultra-violet light dissipates the charge on ROM and content can be rewritten on it.
+</li>
+    <li><b>EEPROM: </b>Electrically Erasable and Programmable ROM Content can be changed by erasing the initial content which could be easily erased electrically.
+</li>
+  </ul>
+</div>  <br><hr>
+
+
+
+<div id="section33" class="container-fluid"> 
+  <br><br>
+  <h1>Cache Memory </h1> 
+cache memory, also called cache, supplementary memory system that temporarily stores frequently used instructions and data for quicker processing by the central processing unit (CPU) of a computer. 
+<br>
+ Both main memory and cache are internal random-access memories (RAMs) that use semiconductor-based transistor circuits. Cache holds a copy of only the most frequently used information or program codes stored in the main memory. The smaller capacity of the cache reduces the time required to locate data within it and provide it to the CPU for processing.
+ <br>
+ <img  src="https://thumbs.gfycat.com/VacantFrequentDutchsmoushond-size_restricted.gif" style="display: block;margin-left: auto; margin-right: auto; width: 30%; height: 30%;">
+ <br>
+When a computer’s CPU accesses its internal memory, it first checks to see if the information it needs is stored in the cache. If it is, the cache returns the data to the CPU. If the information is not in the cache, the CPU retrieves it from the main memory. Disk cache memory operates similarly, but the cache is used to hold data that have recently been written on, or retrieved from, a magnetic disk or other external storage device.
+</div>
+<hr>
+<ul class="pager" >  
+    <li><a href="cpu.html" style="color: teal;">Previous</a></li>  
+    <li><a href="motherboard.html" style="color: teal;">Next</a></li> <br><br><br>
+  </ul>  
+  <div class="footer">
+     created by Chandana Udupa
+  </div>
+
+</body>  
+</html>  

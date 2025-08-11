@@ -1,0 +1,311 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+  <title>Disk Drives</title>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+  <style>  
+  div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 4px solid black;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 5px;
+  float: left;
+  width: 20%;
+}
+
+@media only screen and (max-width: 100px) {
+  .responsive {
+    width: 20%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 100px) {
+  .responsive {
+    width: 50%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: honeydew;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: darkcyan;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+img {
+       border-radius: 4px;
+       margin-left: auto;
+       margin-right: auto;
+       width:  300px;
+       height: 200px;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       padding-left: auto;
+       margin: 6px 0;
+}
+
+  body {  
+      position: relative;   
+      color: honeydew;
+      font-family: cursive, serif;
+      background-color: teal;
+      font-size:large;}
+.footer {
+position: fixed;
+left: 10px;
+bottom: 5px;
+right: 10px; 
+width: 95%;
+background-color: teal;
+color: whitesmoke;
+text-align: center;
+}
+   
+  #section1 {padding-top:50px; }  
+  #section2 {padding-top:50px;}  
+  #section3 {padding-top:50px; }  
+  #section41 {padding-top:50px; }  
+  #section42 {padding-top:50px;}  
+
+  </style>  
+</head>  
+<body data-spy="scroll" data-target=".navbar" data-offset="50">  
+  
+<nav class="navbar navbar-inverse navbar-fixed-top">  
+  <div class="container-fluid">  
+    <div class="navbar-header">  
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">  
+          <span class="icon-bar"></span>  
+          <span class="icon-bar"></span>  
+          <span class="icon-bar"></span>                          
+      </button>  
+      <a class="navbar-brand" href="../index.html">Computer Hardware</a>  
+    </div>  
+    <div>  
+      <div class="collapse navbar-collapse" id="myNavbar">  
+        <ul class="nav navbar-nav">  
+          <li><a href="#section1">Disk Drives</a></li>  
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Hard Disk Drives <span class="caret"></span></a> 
+            <ul class="dropdown-menu">  
+              <li><a href="#section21">Introduction</a></li>  
+              <li><a href="#section22">Operation</a></li></ul> 
+
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Solid State Drives <span class="caret"></span></a>  
+            <ul class="dropdown-menu">  
+              <li><a href="#section31">Intoduction</a></li>  
+              <li><a href="#section32">Operation</a></li>  
+              <li><a href="#section33">Types</a></li>  
+            </ul>  
+          </li>  
+        </ul>  
+      </div>  
+    </div>  
+  </div>  
+</nav>      
+  
+<div id="section1" class="container-fluid">  
+  <h1>Disk Drives</h1>  
+    <p>A disk drive is a device that allows a computer to read from and write data to a disk. The most common type of disk drive is a hard disk drive (HDD), and the term disk drive and hard disk drive are typically used interchangeably. Other types include optical drives, storage devices, and floppy drives. A disk drive is commonly found in PCs, servers, laptops, and storage arrays.<br><br>
+      <img  src="https://i.pinimg.com/originals/81/c9/2f/81c92fda2a278977d5dd2fd5db927e5b.jpg" style=" width: 300px; height: 300px;">  
+      <img  src="https://asset.conrad.com/media10/isa/160267/c1/-/en/417620_AB_00_FB/image.jpg" style=" width: 300px; height: 300px;">
+
+      <br><br>
+    Disk drives can either be housed internally within a computer or housed in a separate box that is external to the computer. There are two types of popular disk drives that are used in computer internally, they are:
+    <ul>
+      <li> <b>Hard Disk Drives</b> </li>
+      <li> <b>Solid State Drives</b></li>
+
+    </ul>
+    Hard disk drives and removable disk drives use a magnetic head, while an optical drive uses a laser. A disk drive differs from a solid state drive (SSD), which has no moving parts and offers greater performance but also costs more and generally offers less capacity.<br> <br>
+    <b> As a disk drive is made up of many moving parts, some of the major components in a disk drive are:</b><br><br>
+  </p>
+
+  <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://cdn.mos.cms.futurecdn.net/89e5b4e52b0c79a2e59df8ee735b4947-1200-80.jpg">
+      <img src="https://cdn.mos.cms.futurecdn.net/89e5b4e52b0c79a2e59df8ee735b4947-1200-80.jpg" alt="Platter" width="600" height="400" style="border-radius: 0px;">
+    </a>
+    <div class="desc"><b>Platter:</b> The platter is the actual disk inside the drive that stores the magnetized data. </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://th.bing.com/th/id/OIP.9PS4JULy4YuYhrQ8AfmWdwHaFj?pid=ImgDet&rs=1">
+      <img src="https://th.bing.com/th/id/OIP.9PS4JULy4YuYhrQ8AfmWdwHaFj?pid=ImgDet&rs=1" alt="Spindle" width="600" height="50" style="border-radius: 0px;">
+    </a>
+    <div class="desc"><b>Spindle:</b> The platters are attached at the center to a rod or pin called a spindle </div>
+  </div>
+</div>
+
+
+<div class = 'responsive'>
+ <div class="gallery">
+    <a target="_blank" href="https://th.bing.com/th/id/R.0adb8899e838a4cba77b5c5d8266d1de?rik=tU1e8Q0TO3k2vA&riu=http%3a%2f%2fwww.ece.neu.edu%2ffaculty%2fnian%2fmom%2fimg%2fHard_disk_head.jpg&ehk=1eM837QQM2SEtxnZYh25RO3V60z53E%2fpPhNnMNygl%2bI%3d&risl=&pid=ImgRaw&r=0">
+      <img src="https://th.bing.com/th/id/R.0adb8899e838a4cba77b5c5d8266d1de?rik=tU1e8Q0TO3k2vA&riu=http%3a%2f%2fwww.ece.neu.edu%2ffaculty%2fnian%2fmom%2fimg%2fHard_disk_head.jpg&ehk=1eM837QQM2SEtxnZYh25RO3V60z53E%2fpPhNnMNygl%2bI%3d&risl=&pid=ImgRaw&r=0" width="600" height="100" style="border-radius: 0px;">
+    </a>
+    <div class="desc"><b>Read/Write heads:</b> Read/write heads read and write data to the platters. When one head is over a track, all other heads are at the same location over their respective surfaces. </div>
+  </div>
+</div>
+</div>
+
+<hr>
+
+
+
+<div id="section21" class="container-fluid">  
+
+  <br>
+  <h1>Hard Disk Drives </h1>    
+  <h2> Introduction</h2>
+  <p> A hard disk drive (HDD) is a non-volatile computer storage device containing magnetic disks or platters rotating at high speeds. It is a secondary storage device used to store data permanently, random access memory (RAM) being the primary memory device. A hard drive fits inside a computer case and is firmly attached with the use of braces and screws to prevent it from being jarred as it spins. Typically it spins at 5,400 to 15,000 RPM. The disk moves at an accelerated rate, allowing data to be accessed immediately. Most hard drives use enhanced integrated drive electronics (EIDE) including cables and connectors to the motherboard. All data is stored magnetically, allowing information to be saved when power is shut off.</p>
+  <img  src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/f5b76d25354853.563442dd80a13.gif" style="  display: block;margin-left: auto;margin-right: auto;width: 40%; height: 40%;"><br>
+  <p>Introduced by IBM in 1956, HDDs were the dominant secondary storage device for general-purpose computers beginning in the early 1960s. HDDs maintained this position into the modern era of servers and personal computers, though personal computing devices produced in large volume, like cell phones and tablets, rely on flash memory storage devices. More than 224 companies have produced HDDs historically, though after extensive industry consolidation most units are manufactured by Seagate, Toshiba, and Western Digital. HDDs dominate the volume of storage produced (exabytes per year) for servers. Though production is growing slowly , sales revenues and unit shipments are declining because solid-state drives (SSDs) have higher data-transfer rates, higher areal storage density, somewhat better reliability,and much lower latency and access times.</p>
+</div> 
+<div id="section22" class="container-fluid">  
+
+  <br><br>
+  <h2>Operation of Hard disk drive</h2>    
+
+  <p>
+        
+    <img  src="https://img-16.ccm2.net/0xqk9SrVtMBIaQCThkIXZ2pKtAQ=/455x/7318e3b90a0e431b86c00cc92eba52e4/ccm-encyclopedia/pc-images-disque-dur.png" style="border-radius: 8px;  display: block; auto;width: 30%; height: 30%;"><br>
+    <ul>
+    <li>The hard drive is the component that is used to permanently store data, this is why the term mass storage device is sometimes used to refer to hard drives. </li>
+    <li>A hard drive is made up of several rigid metal/glass/ceramic disks, stacked very close to one another and called platters. The term cylinder is used to refer to all the data stored vertically on each of the disks.</li>
+    <li>The disks turn very quickly around an axle in a counter-clockwise direction.  A computer works in a binary mode. Hard drives hold millions of these bits, stored very close to one another on a fine magnetic layer a few microns thick, which is covered by a protective film.</li>
+    <li>They are read and written using read heads located on both sides of the platters. These heads are electromagnets that raise and lower themselves in order to read or write data. </li>
+    <li>These disks are laterally mobile so that the heads can sweep across their entire surface. However, the heads are linked to one another and only one of them can read or write at a given moment. </li>
+    <li>This entire precision mechanism is contained within a fully airtight case, as the smallest particle can degrade the disk's surface. This is why hard drives are closed shut with seals, and the warning "Warranty void if removed", as only hard drive manufacturers can open them (in particle-free cleanrooms).</li>
+  </ul>
+<h3> How does it work? </h3>
+<p>The read/write heads are said to be inductive, meaning that they can generate a magnetic field. This is especially important in writing: The heads, by creating positive or negative fields, polarise the disk surface in a very tiny area, so that when they are read afterwards, the polarity reversal completes a circuit with the read head, that is then transformed by an analog-digital converter (ADC) into a 0 or 1 which can be understood by the computer</p>
+<img  src="https://img-16.ccm2.net/K0nPKrkMaL6hBk1ZGWTenqnGgms=/242x/cc9767b62e884f2bb515d62c93fa67e2/ccm-encyclopedia/pc-images-piste.png" style="width: 20%; height: 20%;">
+<img  src="https://img-16.ccm2.net/EKYeAxMB0AWbo8f61HBi_N8wY0s=/242x/b034eb2dbdc44b4a91dd9ff6be1fbcf4/ccm-encyclopedia/pc-images-secteur.png" style="width: 20%; height: 20%;">
+<br>
+The heads start writing data from the edge of the disk (track 0), then move onward towards the centre. The data is organized in concentric circles called tracks, which are created by low-level formatting.The tracks are separated into areas (between two radii) called sectors, containing data (generally at least 512 octets per sector).The term cylinder refers to all data found on the same track of different platters. Finally, the term clusters (also called allocation units) refers to the minimum area that a file can take up on the hard drive. An operating system uses blocks. Blocks are groups of sectors (between 1 and 16 sectors). A small file may occupy multiple sectors (a cluster).
+
+
+</p>
+</div>
+
+<hr>
+<div id="section31" class="container-fluid">  
+  <br><br>
+  <h1>Solid State Drives </h1> 
+  <h2>Introduction</h2> 
+  <img  src="https://www.deskdecode.com/wp-content/uploads/2016/11/slant-min.jpg" style="display: block;margin-left: auto; margin-right: auto; width: 30%; height: 30%;"><br>
+  <p> A solid-state drive (SSD) is a solid-state storage device that uses integrated circuit assemblies to store data persistently, typically using flash memory, and functioning as secondary storage in the hierarchy of computer storage. It is also sometimes called a semiconductor storage device, a solid-state device or a solid-state disk,even though SSDs lack the physical spinning disks and movable read–write heads used in hard disk drives (HDDs) and floppy disks.</p><br>
+  <p>SSDs are typically more resistant to physical shock, run silently, and have higher IOPS and lower latency.SSDs store data in semiconductor cells. As of 2019, cells can contain between 1 and 4 bits of data. SSD storage devices vary in their properties according to the number of bits stored in each cell, with single-bit cells ("Single Level Cells" or "SLC") being generally the most reliable, durable, fast, and expensive type, compared with 2- and 3-bit cells ("Multi-Level Cells/MLC" and "Triple-Level Cells/TLC"), and finally quad-bit cells ("QLC") being used for consumer devices that do not require such extreme properties and are the cheapest per gigabyte of the fourSSDs made from RAM can be used for high speed, when data persistence after power loss is not required, or may use battery power to retain data when its usual power source is unavailable.</p>
+
+  
+</div>  
+<div id="section32" class="container-fluid">  
+  <br><br>
+  <h2>Operation of Solid State Drives</h2>  
+  <ul>
+    <li>SSDs serve the same purpose as HDDs: they store data and files for long-term use. The difference is that SSDs use a type of memory called "flash memory, “SSDs are called "solid-state" because they have no moving parts.</li>
+    <li>If you took apart a typical HDD, you'd see a stack of magnetic plates with a reading needle---kind of like a vinyl record player. Before the needle can read or write data, the plates have to spin around to the right location. </li><br>
+    <img  src="https://fossbytes.com/wp-content/uploads/2016/03/SSD.jpg" style="display: block;margin-left: auto; margin-right: auto; width: 30%; height: 30%;"><br>
+    <li>On the other hand, SSDs use a grid of electrical cells to quickly send and receive data. These grids are separated into sections called "pages," and these pages are where data is stored. Pages are clumped together to form "blocks.“</li>
+    <li>When you have a fresh SSD, it's loaded entirely with blocks full of blank pages. When you write new data to the SSD, it can immediately write to those blank pages with blazing speeds. However, as more and more data gets written, the blank pages run out and you're left with random unused pages scattered throughout the blocks.</li>
+    <li>In HDDs, data can be written to any location on the plate at any time, and that means that data can be easily overwritten. SSDs can't directly overwrite data in individual pages. They can only write data to empty pages in a block.</li>
+    <li>So then how do SSDs handle data deletion? When enough pages in a block are marked as unused, the SSD commits the entire block's worth of data to memory, erases the entire block, then re-commits the data from memory back to the block while leaving the unused pages blank.</li>
+    <li>This means that SSDs become slower over time.</li>
+  </ul>
+
+  
+</div>  
+
+<div id="section33" class="container-fluid"> 
+<br><br>
+  <h2>Types of Solid State Drives</h2>  
+  <p>There are 2 types of SSD available those are: </p>
+  <h4 style="text-align: center;"><b>SATA-based SSDs</b></h4>
+</div>
+<div class="container">
+  <img src="https://marketai.com/product/listings/western-digital-2tb-wd-blue-3d-nand-internal-pc-ssd-sata/1fag7gvqs923l/thumbnail" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">SATA-based SSDs are best for older computers that lack newer SSD connector types and have only SATA connections. A great way to boost the speed of an older computer with a spinning hard drive is to clone the drive to an SSD, and replace the Hard Drive with an SSD, increasing the computer’s ability to read/write data, possibly tenfold.</div>
+  </div>
+</div>  
+<br>
+<h4 style="text-align: center;"><b>NVMe-based SSDs</b></h4>
+<div class="container">
+  <img src="https://images.idgesg.net/images/article/2019/01/wd-black-sn750-nvme-gaming-ssd-100786895-large.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">NVMe, or Non-Volatile Memory Express, is a new controller used to replace AHCI, or Advance Host Controller Interface.  NVMe promises lower latency by operating with higher efficiency, working with Solid State’s parallelization abilities by being able to run more than two thousand times more commands to or from the drive than compared to a drive on the AHCI controller. ​</div>
+  </div>
+</div>  
+<hr>
+
+<ul class="pager" >  
+    <li><a href="motherboard.html" style="color: teal;">Previous</a></li>  
+    <li><a href="ref.html" style="color: teal;">Next</a></li> <br><br> 
+  </ul>  
+  <div class="footer">
+     
+     created by Chandana Udupa
+  </div>
+</body>  
+</html>  
